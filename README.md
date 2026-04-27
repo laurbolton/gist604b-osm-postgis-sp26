@@ -11,13 +11,18 @@ Repository for working with OSM spatial data using PostgreSQL and PostGIS.
     ├── notebooks/
     │   ├── setup_osm_postgis.ipynb
     │   └── osm_postgis_queries.ipynb
+    │   └── osm_postgis_massachusetts.ipynb
     ├── sql/
-    │   └── arizona/
-    │       ├── 01_osm_restaurant_distribution.sql
-    │       ├── 02_osm_park_area_by_county.sql
-    │       ├── 03_osm_restaurants_near_streets.sql
-    │       ├── 04_osm_railway_density_by_county.sql
-    │       └── 05_osm_county_amenity_synthesis.sql
+    │   ├── arizona/
+    │   │   ├── 01_osm_restaurant_distribution.sql
+    │   │   ├── 02_osm_park_area_by_county.sql
+    │   │   ├── 03_osm_restaurants_near_streets.sql
+    │   │   ├── 04_osm_railway_density_by_county.sql
+    │   │   └── 05_osm_county_amenity_synthesis.sql
+    │   └── massachusetts/
+    │       ├── 01_osm_school_distribution.sql
+    │       ├── 02_osm_forest_area_by_town.sql
+    │       └── 03_osm_river_density_by_town.sql
     ├── src/
     │   └── setup_osm_postgis.py
     ├── docker-compose.yml
